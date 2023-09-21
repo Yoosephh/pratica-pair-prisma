@@ -7,6 +7,7 @@ export type Book = {
   read: boolean;
   review: string;
   grade: number;
+  cover: string;
 };
 
 export type CreateBook = Omit<Book, "id" | "read" | "review" | "grade">;
